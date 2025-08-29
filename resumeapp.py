@@ -85,7 +85,7 @@ def init_state():
                 "**Business Architecture Services:**\n"
                 "- Developed comprehensive business architecture frameworks, including motivation models, governance models, and strategic roadmaps for organizations like Capilano University, BC Housing, and UBC, facilitating successful enterprise architecture practices and IT/business alignment.\n\n"
                 "**- Competency in:**\n"
-                "-• Capability, Information & Organization Mapping\n"
+                "- • Capability, Information & Organization Mapping\n"
                 "• Motivation, Benefits, As-Is and To-Be Target Operating Models\n"
                 "• Process Hierarchy Models\n"
                 "• Value Streams\n"
