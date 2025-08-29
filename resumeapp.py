@@ -92,6 +92,7 @@ def init_state():
                 "- Strategic Roadmaps\n"
                 "- Business / IT Alignment maps\n"
                 "- Vision, Strategy, Objectives, and Measures Mapping\n"
+                "\n\n"
                 "**Business Architecture Services:**\n"
                 "- Developed comprehensive business architecture frameworks, including motivation models, governance models, and strategic roadmaps for organizations like Capilano University, BC Housing, and UBC, facilitating successful enterprise architecture practices and IT/business alignment.\n\n"
                 "**- Competency in:**\n"
