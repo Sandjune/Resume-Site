@@ -36,6 +36,7 @@ def init_state():
             "competencies",
             "experience",
             "adaptability",
+            "services",
         ]
     if "section_labels" not in st.session_state:
         st.session_state.section_labels: Dict[str, str] = {
