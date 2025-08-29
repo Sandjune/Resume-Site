@@ -82,9 +82,9 @@ def init_state():
                 "Active in IIBA/BizArch communities; rapidly adopts new tools & methods to drive measurable outcomes."
             ),
             "services": (
-                "Continuously aligns BA practice with **emerging trends**: enterprise cloud, SaaS, "
-                "data-driven decisioning, automation, and architecture‑led transformation. "
-                "Active in IIBA/BizArch communities; rapidly adopts new tools & methods to drive measurable outcomes."
+                "**Business Architecture Services**"
+                "Developed comprehensive business architecture frameworks, including motivation models, governance models, and strategic roadmaps for organizations like Capilano University, BC Housing, and UBC, facilitating successful enterprise architecture practices and IT/business alignment. Competency in:  • Capability, Information & Organization Mapping • Motivation, Benefits, As-IS’ and ‘To-Be’ Target Operating Models • Process Hierarchy Models • Value Streams • Strategic Roadmaps • Business / IT Alignment maps • Vision, Strategy, Objectives, and Measures Mapping , "
+                
             ),
         }
     if "artefacts_by_section" not in st.session_state:
