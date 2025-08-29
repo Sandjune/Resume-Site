@@ -44,6 +44,7 @@ def init_state():
             "competencies": "Core Competencies",
             "experience": "Professional Experience",
             "adaptability": "Adaptability to Emerging Trends",
+            "services": "Business Arcitecture and Business Analysis Services",
         }
     if "section_content" not in st.session_state:
         # Summary-only content for each section (derived from the user's resume)
