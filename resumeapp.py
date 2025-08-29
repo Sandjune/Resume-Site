@@ -82,7 +82,7 @@ def init_state():
                 "Active in IIBA/BizArch communities; rapidly adopts new tools & methods to drive measurable outcomes."
             ),
             "services": (
-                "-**Business Architecture Services:**\n"
+                "**Business Architecture Services:**\n"
                 "-Developed comprehensive business architecture frameworks, including motivation models, governance models, and strategic roadmaps for organizations like Capilano University, BC Housing, and UBC, facilitating successful enterprise architecture practices and IT/business alignment.\n" 
                 "**- Competency in:**\n"
                 "• Capability, Information & Organization Mapping]n" 
