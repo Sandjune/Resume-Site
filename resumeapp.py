@@ -82,8 +82,11 @@ def init_state():
                 "Active in IIBA/BizArch communities; rapidly adopts new tools & methods to drive measurable outcomes."
             ),
             "services": (
-                "**Business Architecture Services**"
-                "Developed comprehensive business architecture frameworks, including motivation models, governance models, and strategic roadmaps for organizations like Capilano University, BC Housing, and UBC, facilitating successful enterprise architecture practices and IT/business alignment. Competency in:  • Capability, Information & Organization Mapping • Motivation, Benefits, As-IS’ and ‘To-Be’ Target Operating Models • Process Hierarchy Models • Value Streams • Strategic Roadmaps • Business / IT Alignment maps • Vision, Strategy, Objectives, and Measures Mapping , "
+                "**Business Architecture Services:**\n"
+                "Developed comprehensive business architecture frameworks, including motivation models, governance models, and strategic roadmaps for organizations like Capilano University, BC Housing, and UBC, facilitating successful enterprise architecture practices and IT/business alignment. 
+                "**- Competency in:**\n"
+                "• Capability, Information & Organization Mapping]n" 
+                "• Motivation, Benefits, As-IS’ and ‘To-Be’ Target Operating Models • Process Hierarchy Models • Value Streams • Strategic Roadmaps • Business / IT Alignment maps • Vision, Strategy, Objectives, and Measures Mapping , "
                 
             ),
         }
