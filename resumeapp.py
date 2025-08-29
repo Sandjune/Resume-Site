@@ -81,14 +81,19 @@ def init_state():
                 "data-driven decisioning, automation, and architecture‑led transformation. "
                 "Active in IIBA/BizArch communities; rapidly adopts new tools & methods to drive measurable outcomes."
             ),
-            "services": (
+           "services": (
                 "**Business Architecture Services:**\n"
-                
-                "-Developed comprehensive business architecture frameworks, including motivation models, governance models, and strategic roadmaps for organizations like Capilano University, BC Housing, and UBC, facilitating successful enterprise architecture practices and IT/business alignment.\n" 
+                "- Developed comprehensive business architecture frameworks, including motivation models, governance models, and strategic roadmaps for organizations like Capilano University, BC Housing, and UBC, facilitating successful enterprise architecture practices and IT/business alignment.\n\n"
                 "**- Competency in:**\n"
-                "• Capability, Information & Organization Mapping]n" 
-                "• Motivation, Benefits, As-IS’ and ‘To-Be’ Target Operating Models • Process Hierarchy Models • Value Streams • Strategic Roadmaps • Business / IT Alignment maps • Vision, Strategy, Objectives, and Measures Mapping , "      
+                "• Capability, Information & Organization Mapping\n"
+                "• Motivation, Benefits, As-Is and To-Be Target Operating Models\n"
+                "• Process Hierarchy Models\n"
+                "• Value Streams\n"
+                "• Strategic Roadmaps\n"
+                "• Business / IT Alignment maps\n"
+                "• Vision, Strategy, Objectives, and Measures Mapping\n"
             ),
+
         }
     if "artefacts_by_section" not in st.session_state:
         # Mapping: section_key -> List[artifact_id]
