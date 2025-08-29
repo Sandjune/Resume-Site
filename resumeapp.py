@@ -81,6 +81,11 @@ def init_state():
                 "data-driven decisioning, automation, and architecture‑led transformation. "
                 "Active in IIBA/BizArch communities; rapidly adopts new tools & methods to drive measurable outcomes."
             ),
+            "services": (
+                "Continuously aligns BA practice with **emerging trends**: enterprise cloud, SaaS, "
+                "data-driven decisioning, automation, and architecture‑led transformation. "
+                "Active in IIBA/BizArch communities; rapidly adopts new tools & methods to drive measurable outcomes."
+            ),
         }
     if "artefacts_by_section" not in st.session_state:
         # Mapping: section_key -> List[artifact_id]
