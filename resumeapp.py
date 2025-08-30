@@ -3,7 +3,10 @@ import streamlit as st
 import os
 from typing import Dict, List
 from datetime import datetime
+from streamlit.components.v1 import html
 
+# >>> Hardcoded path to your attached image (already available)
+IMAGE_PATH = "Playbook_framework_complete.png"
 # =============================
 # App Configuration
 # =============================
@@ -108,8 +111,18 @@ def init_state():
                 "- Business cases\n" 
                 "- Resource Estimations\n" 
             ),
-
         }
+
+
+    def show_picture():
+    st.title("Business Architecture Playbook: Visual Overview")
+    col1, col2, col3 = st.columns([1, 20, 1])
+    with col2:
+        if os.path.exists(IMAGE_PATH):
+            st.image(IMAGE_PATH, use_container_width=True)
+        else:
+            st.warning(f"Image not found at **{IMAGE_PATH}**.")
+            
     if "artefacts_by_section" not in st.session_state:
         # Mapping: section_key -> List[artifact_id]
         st.session_state.artefacts_by_section: Dict[str, List[str]] = {k: [] for k in st.session_state.section_order}
