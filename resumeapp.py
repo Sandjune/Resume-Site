@@ -251,7 +251,7 @@ def show_artifact_page(artifact_id: str):
         st.session_state.current_page = "section"
         st.session_state.current_artifact_id = None
         st.session_state.current_section_key = section_key
-        st.experimental_rerun()
+        st.rerun()
 
 def show_artefacts_manager():
     st.title("📁 Job Artefacts")
