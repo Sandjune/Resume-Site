@@ -225,7 +225,7 @@ def show_section_page(section_key: str):
                 if st.button("Open", key=f"open_{art_id}"):
                     st.session_state.current_page = "artifact"
                     st.session_state.current_artifact_id = art_id
-                    st.experimental_rerun()
+                    st.rerun()
 
 def show_artifact_page(artifact_id: str):
     art = st.session_state.artifacts.get(artifact_id)
