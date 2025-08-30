@@ -320,7 +320,7 @@ def show_artefacts_manager():
                 if st.button("Open Page", key=f"open_mgr_{art_id}"):
                     st.session_state.current_page = "artifact"
                     st.session_state.current_artifact_id = art_id
-                    st.experimental_rerun()
+                    st.rerun()
             with cols[3]:
                 # Optional: remove artefact
                 if st.button("Remove", key=f"rm_{art_id}"):
