@@ -51,9 +51,8 @@ def init_state():
         # Summary-only content for each section (derived from the user's resume)
         st.session_state.section_content: Dict[str, str] = {
             "summary": (
-                "- Seasoned **IT Business Analyst & Business Architect** with 15+ years of "
-                "experience across finance, higher education, retail, and healthcare\n"
-                "**TOGAF 9.1** & **ITIL V3** certified; skilled at aligning business and IT via "
+                "- Seasoned **IT Business Analyst & Business Architect** with 15+ years of experience across finance, higher education, retail, and healthcare\n"
+                "- **TOGAF 9.1** & **ITIL V3** certified; skilled at aligning business and IT via "
                 "capability-based planning, process improvement, and Agile delivery."
             ),
             "skills": (
