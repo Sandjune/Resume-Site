@@ -188,10 +188,10 @@ def render_sidebar():
             st.session_state.current_page = "section"
             st.session_state.current_section_key = key
 
-    st.sidebar.markdown("---")
-    if st.sidebar.button("📁 Job Artefacts", use_container_width=True, key="nav_job_artefacts"):
-        st.session_state.current_page = "artefacts_manager"
-        st.session_state.current_artifact_id = None
+    #st.sidebar.markdown("---")
+    #if st.sidebar.button("📁 Job Artefacts", use_container_width=True, key="nav_job_artefacts"):
+    #    st.session_state.current_page = "artefacts_manager"
+    #    st.session_state.current_artifact_id = None
 
 def show_section_page(section_key: str):
     label = st.session_state.section_labels.get(section_key, section_key.title())
