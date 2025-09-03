@@ -187,8 +187,8 @@ def render_sidebar():
         if st.sidebar.button(label, use_container_width=True, key=f"nav_{key}"):
             st.session_state.current_page = "section"
             st.session_state.current_section_key = key
-
-   def show_section_page(section_key: str):
+            
+def show_section_page(section_key: str):
     label = st.session_state.section_labels.get(section_key, section_key.title())
     st.title(label)
 
