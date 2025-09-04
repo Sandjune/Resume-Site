@@ -210,12 +210,6 @@ if section_key == "competencies":
 
         st.image(image, caption="Experience Infographic")
 
-        else:
-            st.info(
-                "The infographic image was not found at `Infograph.jpg`."
-                " Please place it there to display it here."
-            )
-
 
     # Content
     content_md = st.session_state.section_content.get(section_key, "_No content for this section yet._")
