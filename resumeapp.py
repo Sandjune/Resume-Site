@@ -1,4 +1,4 @@
-
+from PIL import Image
 import streamlit as st
 import os
 from typing import Dict, List
@@ -192,13 +192,24 @@ def show_section_page(section_key: str):
     label = st.session_state.section_labels.get(section_key, section_key.title())
     st.title(label)
 
-        # Show the infographic image on the Core Competencies page
-    if section_key == "competencies":
-        img_path = "Infograph.jpg"   # uploaded image path
-        if os.path.exists(img_path):
-            st.markdown("###")
-            st.image(img_path, use_container_width=True)
-            
+       
+
+# Show the infographic image on the Core Competencies page
+if section_key == "competencies":
+    img_path = "Infograph.jpg"   # uploaded image path
+    if os.path.exists(img_path):
+        st.markdown("### Experience Overview Infographic")
+
+        # Open image with PIL so we can resize it
+        image = Image.open(img_path)
+
+        # Set desired width and height in pixels
+        desired_width = 800
+        desired_height = 600
+        image = image.resize((desired_width, desired_height))
+
+        st.image(image, caption="Experience Infographic")
+
         else:
             st.info(
                 "The infographic image was not found at `Infograph.jpg`."
