@@ -208,7 +208,7 @@ def show_section_page(section_key: str):
             desired_height = 400
             image = image.resize((desired_width, desired_height))
     
-            st.image(image, caption="## **Experience Overview Infographic**  ")
+            st.image(image, caption=" ")
 
 
     # Content
