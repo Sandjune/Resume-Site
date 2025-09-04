@@ -197,7 +197,7 @@ def show_section_page(section_key: str):
         img_path = "Infograph.jpg"   # uploaded image path
         if os.path.exists(img_path):
             st.markdown("### Experience Overview Infographic")
-            st.image(img_path, use_column_width=True)
+            st.image(img_path, use_container_width=True)
             # optional: let users download the image
             with open(img_path, "rb") as f:
                 st.download_button(
