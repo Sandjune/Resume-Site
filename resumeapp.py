@@ -214,7 +214,7 @@ def show_section_page(section_key: str):
             #    data=pdf_bytes,
             #    file_name="Experience_Infographic.pdf",
             #    mime="application/pdf",
-            )
+            #)
         else:
             st.info(
                 "The infographic PDF was not found at `Experience_Infographic.pdf`."
