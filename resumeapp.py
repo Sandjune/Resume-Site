@@ -204,8 +204,8 @@ def show_section_page(section_key: str):
             image = Image.open(img_path)
     
             # Set desired width and height in pixels
-            desired_width = 400
-            desired_height = 300
+            desired_width = 500
+            desired_height = 400
             image = image.resize((desired_width, desired_height))
     
             st.image(image, caption="Experience Infographic")
