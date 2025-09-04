@@ -198,7 +198,7 @@ def show_section_page(section_key: str):
     if section_key == "competencies":
         img_path = "Infograph.jpg"   # uploaded image path
         if os.path.exists(img_path):
-            st.markdown("### Experience Overview Infographic")
+            st.markdown("## Experience Overview Infographic")
     
             # Open image with PIL so we can resize it
             image = Image.open(img_path)
