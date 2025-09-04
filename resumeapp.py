@@ -195,7 +195,7 @@ def show_section_page(section_key: str):
        
 
     # Show the infographic image on the Core Competencies page
-    if section_key == "competencies":
+    if section_key == "Professional Experience":
         img_path = "Infograph.jpg"   # uploaded image path
         if os.path.exists(img_path):
             st.markdown("## ")
