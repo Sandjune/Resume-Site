@@ -208,7 +208,7 @@ def show_section_page(section_key: str):
                 )
         else:
             st.info(
-                "The infographic image was not found at `/mnt/data/Infograph.jpg`."
+                "The infographic image was not found at `Infograph.jpg`."
                 " Please place it there to display it here."
             )
 
